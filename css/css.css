@@ -253,7 +253,7 @@ h1 {
 }
 
 .wr-howwework .container h2 {
-font-family: "Montserrat";
+  font-family: "Montserrat";
   color: #fff;
   font-size: 36px;
   font-style: bold;
@@ -350,24 +350,53 @@ font-family: "Montserrat";
 }
 
 
-/* set section our clients */
+/* set section price and plans */
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+.plans-wrapper {
+  background-color: #121212; 
+
+}
 
 .wr-plans{
   display: flex;
-  
+  padding-top: 20px;
+  justify-content: space-around;
 }
 
-.plans .container .price-divider{
+.wr-plans .container .price-divider{
   border-bottom: solid 2px;
   border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
 }
 
 .wr-plans .container{
-  border: solid 2px black;
-  margin: 0 auto;
+  border: solid 2px white;
   box-sizing: border-box;
   padding: 1rem;
-  width: 10%;
+  width: 15%;
+}
+
+.plans-wrapper .container h2{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 36px;
+  font-style: bold;
+  padding-top: 20px;
+  padding-left: 4
+  0px;
+  text-transform: capitalize;
+  padding-top: 30px;
+  
   
 }
+
+.plans-wrapper .container {
+  color: #fff; 
+}
+
 
