@@ -132,12 +132,15 @@ h1 {
   font-family: "Montserrat";
   padding-bottom: 10px;
 
+
 }
 
 .wr-container .container p {
   color: #757575;
   font-size: 14px;
   font-family: "Noto Sans";
+  text-align: left;
+
 
 }
 
@@ -303,6 +306,7 @@ h1 {
   color:#fff;
   font-style: bold;
   padding-top: 10px;
+  
 }
 
 .wr-how-container .container p {
@@ -310,6 +314,7 @@ h1 {
   font-size: 14px;
   font-family: 'Noto Sans';
   padding-top: 10px;
+  text-align: left;
   
 }
 
@@ -318,6 +323,7 @@ h1 {
 
 .clients-wrapper{
   display: flex;
+  flex-wrap: wrap;
   background: linear-gradient(to right, #26a69a 0%,#ab47bc 100%);
 }
 
@@ -328,7 +334,6 @@ h1 {
 
 .container .wr-clients {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
 }
@@ -347,38 +352,21 @@ h1 {
   font-size: 36px;
   color:#fff;
   padding-top: 20px;
+  padding-left: 20px;
 }
 
 
 /* set section price and plans */
 
-.container {
+.plans-wrapper{
+  background-color: #121212;
+  padding-top: 10px;
+}
+
+
+.plans-wrapper .container{
   max-width: 80%;
   margin: 0 auto;
-
-}
-
-.plans-wrapper {
-  background-color: #121212; 
-
-}
-
-.wr-plans{
-  display: flex;
-  padding-top: 20px;
-  justify-content: space-around;
-}
-
-.wr-plans .container .price-divider{
-  border-bottom: solid 2px;
-  border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
-}
-
-.wr-plans .container{
-  border: solid 2px white;
-  box-sizing: border-box;
-  padding: 1rem;
-  width: 15%;
 }
 
 .plans-wrapper .container h2{
@@ -387,16 +375,92 @@ h1 {
   font-size: 36px;
   font-style: bold;
   padding-top: 20px;
-  padding-left: 4
-  0px;
+  padding-left: 40px;
   text-transform: capitalize;
   padding-top: 30px;
+  padding-left: 20px;
   
   
+}
+
+.wr-plans-container{
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 40px;
+ 
+}
+
+.wr-plans-container .container{
+  border: solid 2px white;
+  box-sizing: border-box;
+  padding: 1rem;
+  width: 20%;
+}
+
+.wr-plans-container .container .price-divider{
+  border-bottom: solid 2px;
+  border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
+}
+
+
+.wr-plans-container .container h3{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 26px;
+  padding-bottom: 20px;
 }
 
 .plans-wrapper .container {
   color: #fff; 
 }
 
+.price-divider {
+  font-family: 'Montserrat';
+  font-size: 72px;
+  color:#fff;
+  width: 100%;
+  border-bottom: solid 2px;
+  border-image: linear-gradient(to right, #26a69a 0%,#ab47bc 100%) 1;
+  position: relative;
+  text-align: right;
+  padding-bottom: 10px;
+}
 
+.price-divider span{
+  color: #757575;
+  font-size: 26px;
+  font-family: 'Noto Sans';
+  font-style: italic;
+  position: absolute;
+  top: 10px;
+  left: 85px;
+}
+
+.container li {
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+  font-style: italic;
+  padding: 10px;
+  
+}
+
+.container li span{
+  color: #757575;
+  font-size: 14px;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  
+  
+}
+.container p {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-style: bold;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top:10px;
+
+  
+}
