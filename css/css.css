@@ -322,8 +322,7 @@ h1 {
 
 
 .clients-wrapper{
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;*/
   background: linear-gradient(to right, #26a69a 0%,#ab47bc 100%);
 }
 
@@ -334,6 +333,7 @@ h1 {
 
 .container .wr-clients {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-top: 10px;
 }
