@@ -464,3 +464,103 @@ h1 {
 
   
 }
+
+/* set section our skills */
+
+.ourskills{
+  background-color: #000;
+  padding-top: 10px;
+  
+}
+
+.ourskills .container{
+  max-width: 80%;
+  margin: 0 auto;
+  
+}
+
+.ourskills .container h2{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 26px;
+  font-style: bold;
+  padding-top: 20px;
+}
+
+
+.wr-skills-container {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.wr-skills-container .container{
+  max-width: 25%;
+}
+
+
+
+.container svg circle {
+  fill: none;
+  stroke-width: 10;
+  stroke: #000;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 330;
+  stroke-dashoffset: 330;
+
+}
+
+
+.container svg circle:nth-child(1) {
+  stroke-dashoffset: 0;
+  stroke:#26a69a;
+  /*stroke:#26a69a;*/
+
+}
+
+.container svg circle:nth-child(2) {
+  stroke-dashoffset: calc(330 - (330 * 10) / 100);
+  stroke:#000;
+
+}
+
+
+.container .number h3{
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 26px;
+  font-style: bold;
+  text-align: left;
+  position: absolute;
+  padding-top: 30px;
+}
+
+.ourskills .container h4{
+  font-family: "Montserrat";
+  color: #fff;
+  font-size: 72px;
+  font-style: bold;
+  text-transform: capitalize;
+  text-align: right;
+  position: relative;
+  left: 40px;
+  bottom: 10px;
+  
+  
+}
+
+
+.ourskills .container h4 span{
+  font-family: "Montserrat";
+  color: #757575;
+  font-size: 26px;
+  font-style: bold;
+  text-transform: capitalize;
+  position: relative;
+  bottom: 35px;
+  right:5px;
+}
+
+
+
