@@ -563,4 +563,64 @@ h1 {
 }
 
 
+/* set section slider */
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wr-about .about-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.wr-about .slick-dots li button:before {
+  content: '';
+  opacity: 1;
+  display: inline-block;
+  height: 100%;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.wr-about .slick-dots .slick-active button:before {
+  background-color: green;
+}
+
+.wr-about .slick-prev:before,
+.wr-about .slick-next:before {
+  content: '';
+  display: block;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.wr-about .slick-prev:before {
+  background-image: url('../media/slmedia/arrow-left.png');
+}
+
+.wr-about .slick-next:before {
+  background-image: url('../media/slmedia/arrow-right.png');
+}
+
+
+.about-slide h2 {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-slide img {
+  max-width: 300px;
+  width: 100%;
+}
+
+
 
